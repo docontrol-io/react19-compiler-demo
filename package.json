@@ -1,0 +1,41 @@
+{
+	"name": "react19-app",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@lemonsqueezy/wedges": "1.2.2",
+		"ahooks": "3.7.11",
+		"lucide-react": "0.378.0",
+		"react": "19.0.0-beta-e7d213dfb0-20240507",
+		"react-dom": "19.0.0-beta-e7d213dfb0-20240507",
+		"react-router-dom": "^6.23.0",
+		"shiki-magic-move": "^0.4.2"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.7.3",
+		"@types/react": "npm:types-react@beta",
+		"@types/react-dom": "npm:types-react-dom@beta",
+		"@vitejs/plugin-react-swc": "3.6.0",
+		"@vitejs/plugin-react": "4.2.1",
+		"autoprefixer": "10.4.19",
+		"babel-plugin-react-compiler": "0.0.0-experimental-592953e-20240517",
+		"eslint-plugin-react-compiler": "0.0.0-experimental-c8b3f72-20240517",
+		"postcss": "8.4.38",
+		"shiki": "^1.4.0",
+		"tailwindcss": "3.4.3",
+		"typescript": "5.4.5",
+		"vite": "5.2.11",
+		"vite-plugin-checker": "0.6.4",
+		"vite-tsconfig-paths": "4.3.2"
+	},
+	"overrides": {
+		"@types/react": "npm:types-react@beta",
+		"@types/react-dom": "npm:types-react-dom@beta"
+	}
+}
